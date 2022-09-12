@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="logo.css">
+
+</head>
+
+    <body>
+
+<div class="container-fluid">
+<div class="row main-content bg-success text-center">
+    <section class="sectiony">
+        <img id="logo" src="./logo.png" alt="Logo">
+    </section>
+
+<div class="container-fluid">
+    <div class="texty">
+        <h2>Log-in</h2>
+    </div>
+    <div class="row">
+        <form  class="form-group" name="login-form">
+            <div class="row">
+                <input type="text" name="username" id="username" class="form__input" placeholder="Username" onblur="placeholder='Username'" onfocus="this.placeholder=''">
+            </div>
+                <!-- <span class="fa fa-lock"></span> -->
+                <input type="password" name="password" id="password" value="" class="form__input" placeholder="Password" onblur="placeholder='password'" onfocus="this.placeholder=''" >
+                <div id="eye" toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password" onclick="toggle()"></div>
+                <!-- <i class="bi bi-eye-slash" id="togglePassword"></i> -->
+            <div class="row">
+                <input type="checkbox" name="remember_me" id="remember_me" class="" >
+                <label id="remember" for="remember_me">Remember Me!</label>
+            </div>
+            <div class="row">
+                <input type="submit" value="Submit" class="btn">
+            </div>
+        </form>
+    </div>
+    <div class="row">   
+        <div id="register">
+        <p>Don't have an account? <a href="../../register page/register.html"><br><br><b id="here">Register Here</b></a></p>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+<script src="logo.js"></script>
+</body>
+
+
+
+</html>

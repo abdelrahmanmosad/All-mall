@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/background.png");
+  background-size: cover;
+  
+}
+
+.cartInfo {
+  margin-left: 1.5rem;
+}
+
+
+
+
+/******************************************************************************************/
+section{
+  margin: 8rem auto 3rem auto;
+}
+
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  color: rgb(85, 85, 85);
+ 
+  margin-left: 50px;
+}
+
+
+.topSales {
+  margin: 60px 0px;
+}
+
+.container {
+  width: 23.75%;
+  float: left;
+  margin: 2rem auto;
+  padding-left: 10px;
+}
+
+div .proImg {
+  width: 140px;
+  height: 140px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+
+div .proName {
+  width: 120px;
+  font-size: 15px;
+  color: rgb(85, 85, 85);
+  margin: 8px;
+  padding-left: 15px;
+}
+
+div .proPrice {
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+div .addToCart {
+  width: 70px;
+  color: white;
+  background-color: rgb(0, 216, 0);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+div .cartList {
+  position: fixed;
+  top: 55%;
+  right: 0.5%;
+  width: 80px;
+  height: 50px;
+  color: white;
+  background-color: rgb(255, 78, 131);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+  margin-right: 60px;
+}
+
+div #noOfItems {
+  width: 1.5rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+}
+
+div #cartIcon {
+  font-size: 1.5rem;
+}

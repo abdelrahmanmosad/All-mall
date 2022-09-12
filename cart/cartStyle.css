@@ -1,0 +1,104 @@
+:root {
+    --color: antiquewhite;
+}
+
+body {
+    background-image: url(../images/background.png);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.contaner {
+
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 4rem auto 1rem auto;
+    padding: 2rem;
+}
+
+.total {
+    height: 10%;
+    width: 20%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 2rem;
+    background-color: hsl(220, 100%, 94%);
+    border-radius: 30%;
+    font-size: 1.25rem;
+    font-weight: bold
+}
+
+.col {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.col>span {
+    text-align: end;
+    width: 10rem;
+    color: rgb(240, 38, 112);
+    border-radius: 80%;
+    cursor: pointer;
+}
+
+.parentrow {
+    background-color: hsl(220, 100%, 96.7%);
+    width: 40%;
+    height: 15rem;
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+
+.row {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imag {
+    padding: .25rem;
+    display: flex;
+    height: 100%;
+    width: 40%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.row>i {
+    font-size: 2rem;
+    color: #e6b120
+}
+
+input {
+    height: 1.75rem;
+    width: 6rem;
+    text-align: center;
+    border: 0;
+
+}
+
+.row h4 {
+    text-align: center;
+    width: 100%;
+    margin-top: -3rem;
+
+}

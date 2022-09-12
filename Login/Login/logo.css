@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+
+*
+{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body
+{
+	justify-content: center;
+	align-items: center;
+}
+
+#eye {
+
+	float: right;
+	margin-left: -25px;
+	margin-top: -45px;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+  }
+  #eye:hover
+  {
+	  color: #18535b;
+  }
+  
+
+.main-content{
+	width: 50%;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px #18535b;
+	margin: 5em auto;
+	display: flex;
+}
+
+.texty{
+	color:black;
+	text-align: left;
+	padding-left: 27%;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#register
+{
+	padding-left: 27%;
+	text-decoration: none;
+	color: #18535b;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#here:hover
+{
+	color: #18535b;
+}
+#remember
+{
+	color: #18535b;
+	
+}
+#remember_me
+{
+	accent-color: #18535b;
+
+}
+#remember_me:hover
+{
+	accent-color: white;
+}
+
+.row a
+{
+	color: black;
+	height: 10px ;
+}
+
+
+.sectiony
+{
+  width: 50%;
+  background-color: #18535b;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px 0 0 9px;
+  
+}
+
+#logo
+{
+	object-fit: contain;
+	width: 80%;
+	height: 100%;
+}
+
+form{
+	padding: 0 6em;
+}
+.form__input{
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid grey;
+	padding: 1em .5em .5em;
+	outline:none;
+	margin:1.5em auto;
+	transition: all .5s ease;
+	width: 100%;
+}
+
+.form__input:focus{
+	border-bottom-color: #18535b;
+  	box-shadow: 0 0 5px #18535b; 
+	border-radius: 4px;
+}
+.btn{
+	transition: all .5s ease;
+	width: 70%;	
+	border-radius: 30px;
+	color:#18535b;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid #18535b;
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+	cursor: pointer;
+	margin-left: 25px;
+}
+.btn:hover, .btn:focus{
+	background-color: #18535b;
+	color:#fff;
+}

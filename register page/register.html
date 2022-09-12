@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./register.css" />
+    <title>My Mall | Register</title>
+  </head>
+  <body>
+    <section>
+      <div class="registerBody">
+        <div class="imageCount">
+          <img src="./logoWithText.png" alt="website logo picture" />
+          <h1>For all house needs</h1>
+        </div>
+
+        <div class="regPart">
+          <h1>Register</h1>
+          <div class="selectionBody">
+            <div class="selectOption  ">
+              <h3
+                onclick="expandClientContainer()"
+                id="clC"
+                class="selectedOption"
+              >
+                Client
+              </h3>
+              <h3 onclick="expandSellerContainer()" id="slC">Seller</h3>
+            </div>
+            <div id="line" class="line"></div>
+          </div>
+
+          <div class="clientReg">
+            <!-- buyer form -->
+
+            <form
+              action="../JS project/index.html"
+              target="_blank"
+              id="clientForm"
+              method="get"
+            >
+              <h2>Your Name</h2>
+              <input type="text" id="clientName" />
+              <br />
+              <h2>Email</h2>
+              <input type="email" id="clientEmail" />
+              <br />
+              <h2>Password</h2>
+              <input type="password" id="clientPassword" />
+              <br />
+              <h2>Confirm password</h2>
+              <input
+                type="password"
+                onblur="passwordValidation()"
+                id="confirmPassword"
+                autocomplete="new-password"
+              />
+              <br />
+              <input type="submit" class="subBtn" value="Register" />
+            </form>
+          </div>
+          <div class="sellerReg">
+            <!-- seller form -->
+            <form action="" id="sellerForm">
+              <h2>Your Name</h2>
+              <input type="text" id="sellerName" />
+              <br />
+              <h2>Email</h2>
+              <input type="email" id="sellerEmail" />
+              <br />
+              <h2>Password</h2>
+              <input type="password" id="sellerPassword" />
+              <br />
+              <h2>Confirm password</h2>
+              <input type="password" id="sellerConfirmPassword" />
+              <br />
+              <br />
+              <label for="categories"
+                >select category to sell your products</label
+              >
+
+              <select id="cat" value="categories"></select>
+              <br />
+              <div class="cont" style="display: grid;">
+                <a href="../Login/Login/logo.html">Already have accout?</a>
+                <input type="submit" class="subBtn" value="Register" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./register-logic.js"></script>
+  </body>
+</html>

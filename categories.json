@@ -1,0 +1,34 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Fashion",
+            "avatar": "https:\/\/retail.amit-learning.com\/images\/categories\/l7KggHVGDdgqcpe8dIrmvKAzKSL12smtEt0nMDJq.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Electronics",
+            "avatar": "https:\/\/retail.amit-learning.com\/images\/categories\/0dFQMWgiSbwa6Z4pcWw24DkV4Fw5TzJIRuosZz0e.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Baby Products",
+            "avatar": "https:\/\/retail.amit-learning.com\/images\/categories\/ilJxwK6vIPBdflb3EmLHc5DiA7p2apdljYdxHqGo.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Health & Beauty",
+            "avatar": "https:\/\/retail.amit-learning.com\/images\/categories\/fJtyicjsNSBhlex1gqT8DgCdsaUodPeAVOkqzc5V.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Phones",
+            "avatar": "https:\/\/retail.amit-learning.com\/images\/categories\/RXUCTZCKFPgdvycsrfQl59f66CQwfJyvu7zIfd72.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Supermarket",
+            "avatar": "https:\/\/retail.amit-learning.com\/images\/categories\/QKSTMJ9w2lrPvwGjAWmebJL00cMawjOTTbpmFRle.jpg"
+        }
+    ]
+}
